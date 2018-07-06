@@ -45,7 +45,7 @@ def funcC():
 # batch_size: 32
 # funcB()
 #batch_size: 64
-funcC()
+# funcC()
 #---------------------------
 
 model.fit(X_train, y_train, batch_size=batch_size, epochs=3, verbose=1)
